@@ -1,0 +1,33 @@
+# general
+.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+coverage/
+.vscode/
+.idea/
+
+
+# Go
+/bin
+/build
+**/*.test
+
+
+# Rust
+/target
+Cargo.lock
+
+
+# Frontend
+frontend/.vite
+frontend/.turbo
+
+
+# Docs
+/site
+
+
+# Helm
+*.tgz
